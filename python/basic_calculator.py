@@ -15,6 +15,7 @@ class Solution(object):
                 if i==0 or not s[i-1].isdigit():
                     stackNum.append(int(res[::-1]))
                     res=''
+
             elif s[i]==')'or s[i] == '*' or s[i] == '/':
                 stackOp.append(s[i])
             elif s[i]=='+' or s[i]=='-':
