@@ -43,7 +43,7 @@ def reviewdata_insert(db):
         print(str(e))
         break
 if __name__ == "__main__": # 起到一个初始化或者调用函数的作用
-  db = pymysql.connect("10.0.4.125", "crs", "xGeX4UeLmq", "crs", charset='utf8mb4')
+  db = pymysql.connect("local", "crs", "crs", "crs", charset='utf8mb4')
   cursor = db.cursor()
   prem(db)
   reviewdata_insert(db)
