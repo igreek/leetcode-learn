@@ -1,4 +1,4 @@
-#### 参考地址
+#### python环境安装
 - IDEA里如何安装Python插件打造开发环境（图文详解）
     - https://www.cnblogs.com/zlslch/p/7976893.html
 
@@ -42,3 +42,6 @@ conda env export > environment.yaml // 导出当前环境的包信息
 
 conda env create -f environment.yaml // 用配置文件创建新的虚拟环境
 ```            
+
+
+#### python书籍

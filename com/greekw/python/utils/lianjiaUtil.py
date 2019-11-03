@@ -1,15 +1,11 @@
 
+import os
+import re
+import time
+
+import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import sys
-import os
-import time
-import pandas as pd
-import numpy as np
-from parsel import Selector
-import re
-
-
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 BIDUBrowser/8.7 Safari/537.36'
