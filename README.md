@@ -45,3 +45,7 @@ conda env create -f environment.yaml // 用配置文件创建新的虚拟环境
 
 
 #### python书籍
+
+- http://funhacks.net/explore-python/File-Directory/text_file_io.html
+
+- https://python3-cookbook.readthedocs.io/zh_CN/latest/c02/p05_search_and_replace_text.html
