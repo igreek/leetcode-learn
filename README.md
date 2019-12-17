@@ -6,7 +6,7 @@
 
     - https://blog.csdn.net/zhouchen1998/article/details/84671528
     
-    - https://www.cnblogs.com/IT-LearnHall/p/9486029.html
+    - https://www.cnblogs.com/IT-LearnHall/p/9486029.html (windows环境)
     
 - conda 更改pip源至国内镜像
     - pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
@@ -16,6 +16,10 @@
 - conda 设置清华镜像
 
     - https://blog.csdn.net/weixin_39278265/article/details/84782550    
+    
+- linux下安装anaconda
+
+    - https://segmentfault.com/a/1190000016359391    
     
 - conda 命令
 
