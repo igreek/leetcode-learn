@@ -1,6 +1,8 @@
 __author__ = 'greek'
 # -*- coding:utf-8 -*-
+# -*- coding:xxx -*-
 #!/usr/bin/python3
+# !/usr/bin/python3
 '''
   连个数的链表相加，需处理进位
 '''
@@ -10,7 +12,7 @@ class ListNode:
         self.next=None
 
 class Solution:
-    def addTowNumbers(self,l1,l2):
+    def addTowNumbers(l1,l2):
 
         dummy=ListNode(0)
         current,carry=dummy,0
@@ -34,4 +36,4 @@ if __name__=='__main__':
     a, a.next, a.next.next = ListNode(2), ListNode(4), ListNode(3)
     b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(4)
     result=Solution.addTowNumbers(a,b)
-    print("{0} -> {1} -> {2}".format(result.val, result.next.val, result.next.next.val))
+    print("{0} -> {1} -> {2}".format(result.val, result.next.val,result.next.next.val))
