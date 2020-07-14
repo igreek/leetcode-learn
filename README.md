@@ -48,6 +48,25 @@ conda env create -f environment.yaml // 用配置文件创建新的虚拟环境
 ```            
 
 
+#添加镜像
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+#如有需要，删除镜像
+conda config --remove channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+#设置搜索时显示通道地址
+conda config --set show_channel_urls yes
+
+# 重置源配置
+conda config --remove-key channels 
+# 重新添加清华源
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/ 
+conda config --set show_channel_urls yes
+# 查看效果
+cat ~/.condarc
+
+
 #### python书籍
 
 - http://funhacks.net/explore-python/File-Directory/text_file_io.html
