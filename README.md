@@ -72,3 +72,17 @@ cat ~/.condarc
 - http://funhacks.net/explore-python/File-Directory/text_file_io.html
 
 - https://python3-cookbook.readthedocs.io/zh_CN/latest/c02/p05_search_and_replace_text.html
+
+#### 设置虚拟环境默认位置
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - defaults
+show_channel_urls: true
+envs_dirs:
+  - C:\Install\develop\Anaconda3\envs
+pkgs_dirs:
+  - C:\Install\develop\Anaconda3\pkgs
+
