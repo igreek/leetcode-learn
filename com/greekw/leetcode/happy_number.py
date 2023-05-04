@@ -2,7 +2,7 @@ __author__ = 'greekw'
 # -*- coding:utf-8 -*-
 #!/usr/bin/python3
 '''
-  python 寻找幸运数
+  leetcode 寻找幸运数
   Python特殊语法：filter、map、reduce、lambda
   http://www.cnblogs.com/longdouhzt/archive/2012/05/19/2508844.html
 '''

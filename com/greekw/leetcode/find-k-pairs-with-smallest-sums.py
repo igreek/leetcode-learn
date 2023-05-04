@@ -2,7 +2,7 @@ __author__ = 'greekw'
 # -*- coding:utf-8 -*-
 #!/usr/bin/python3
 '''
-  python 堆寻找最最小K对数
+  leetcode 堆寻找最最小K对数
 '''
 #python3d  http://python3-cookbook.readthedocs.io/zh_CN/latest/c01/p05_implement_a_priority_queue.html
 import heapq

@@ -2,7 +2,7 @@ __author__ = 'greek'
 # -*- coding:utf-8 -*-
 #!/usr/bin/python3
 '''
- python 读写文件
+ leetcode 读写文件
 '''
 
 class ReadAndWrite:
